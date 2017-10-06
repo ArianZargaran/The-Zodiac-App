@@ -1,75 +1,52 @@
-body{
-  background-color:#f1f1f1;
-  font-family: 'Droid Sans';
-  font-size:13px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body {
+  background-color: #000;
+  background-image: radial-gradient(#ffffff, rgba(255, 255, 255, 0.07) 2px, rgba(0, 0, 0, 0) 40px), radial-gradient(#ffffff, rgba(255, 255, 255, 0.1) 1px, rgba(0, 0, 0, 0) 30px), radial-gradient(#ffffff, rgba(255, 255, 255, 0.05) 2px, rgba(0, 0, 0, 0) 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, rgba(0, 0, 0, 0) 10px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
-.piechart {
-  position: relative;
-  width: 300px;
-  margin: 10px 0;
+* {
+  font-family: Roboto;
 }
-.piechart div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  clip: rect(0px, 300px, 300px, 150px);
+
+.content h1 {
+  font-weight: 900;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 55px;
 }
-.piechart > div:first-child {
-  clip: auto;
-}
-.piechart div div {
-  clip: rect(0px, 150px, 300px, 0px);
-}
-.piechart .doughnut {
-  top: 75px;
-  left: 75px;
-  background: white;
-  width: 150px;
-  height: 150px;
+
+svg#donut-chart {
   display: block;
-  clip: auto;
+  margin: 0 auto;
 }
 
-#slice1 {
-  background: #88dd22;
+text.inner-circle {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
-#slice2 {
-  -webkit-transform: rotate(90deg);
+.inner-image {
+  height: 84px;
+  width: 140px;
 }
 
-#slice2 .pie {
-  background-color: #ee8800;
-  -webkit-transform: rotate(90deg);
+.arc {
+  cursor: pointer;
+}
+.arc:hover {
+  opacity: 0.85;
+}
+.arc text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
 }
 
-#slice3 {
-  -webkit-transform: rotate(180deg);
-}
-
-#slice3 .pie {
-  background-color: #0077ee;
-  -webkit-transform: rotate(45deg);
-}
-
-#slice4 {
-  -webkit-transform: rotate(225deg);
-}
-
-#slice4 .pie {
-  background-color: #ee55ee;
-  -webkit-transform: rotate(90deg);
-}
-
-#slice5 {
-  -webkit-transform: rotate(315deg);
-}
-
-#slice5 .pie {
-  background-color: #9900dd;
-  -webkit-transform: rotate(45deg);
+.inner-circle_heading {
+  font-weight: 600;
 }
