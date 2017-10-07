@@ -2,63 +2,63 @@
 var seedData = [{
   "label": "Aquarius",
   "value": 25,
-  "data": "Make tem happy and stop sharing memes",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/aquarius-zodiacsign-ink.jpg"
+  "data": "Make them happy and stop sharing memes",
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/aquarius.jpg"
 }, {
   "label": "Pisces",
   "value": 25,
   "data": "To find love, at least start talking to people",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/pisces-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/pisces.jpg"
 }, {
   "label": "Aries",
   "value": 25,
   "data": "One year is way much to complete a task",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/aries-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/aries.jpg"
 }, {
   "label": "Taurus",
   "value": 25,
   "data": "Your childhood stories are humdrum",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/taurus-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/taurus.jpg"
 }, {
   "label": "Gemini",
   "value": 25,
   "data": "Take a sit, he is not going to come today",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/gemini-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/gemini.jpg"
 }, {
   "label": "Leo",
   "value": 25,
   "data": "The extra money is an illusion",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/leo-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/leo.jpg"
 }, {
   "label": "Cancer",
   "value": 25,
   "data": "You feel physically great. Try to read a book",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/cancer-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/cancer.jpg"
 }, {
   "label": "Virgo",
   "value": 25,
   "data": "Passion is on your mind... focus!!",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/virgo-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/virgo.jpg"
 }, {
   "label": "Libra",
   "value": 25,
   "data": "It's too late to 'fix' things with a present",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/libra-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/libra.jpg"
 }, {
   "label": "Scorpio",
   "value": 25,
   "data": "A bot is not a girlfriend",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/scorpio-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/scorpio.jpg"
 }, {
   "label": "Sagittarius",
   "value": 25,
   "data": "Don't think you're right. She is",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/sagittarius-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/sagittarius.jpg"
 }, {
   "label": "Capricorn",
   "value": 25,
   "data": "If you are reading this, you need a friend",
-  "image": "https://www.zodiacsignastrology.org/wp-content/uploads/capricorn-zodiacsign-ink.jpg"
+  "image": "https://arianzargaran.github.io/The-Zodiac-App/images/capricorn.jpg"
 }];
 
 // Define size & radius of donut pie chart
@@ -135,7 +135,7 @@ g.selectAll(".arc text").call(wrap, arcText.range([0, width]));
 svg.append("image")
    .style("text-align", "center")
    .attr("class", "inner-image")
-   .attr("xlink:href", 'https://lh6.ggpht.com/dzAUlpSK42O8hMEPKGh7XDL2nO1RVq8HcBW5to-0Lo1q9zUvnCDNM7YRI498J7vipi-j=w170')
+   .attr("xlink:href", 'https://arianzargaran.github.io/The-Zodiac-App/images/cover.png')
    .attr("x", -65)
    .attr("y", -100)
    .attr("height", "80px")
